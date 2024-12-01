@@ -464,16 +464,16 @@ taint --> paint
 Example: 
 - Banks and RBI may accept painted notes -> It means they can tolerate (tolerate in the sense excuse)
 - We can taint the node(it means it is polluted). For suppose if you tainted any node, then kube-scheduler will not schedule any pod inside that node 
--> kube-scheduler cannot schedule any pod in that node 
--> GPU based servers are required for expense project 
--> taint these GPU nodes 
--> expense project users should give toleration in their manifest files 
--> tolerations are written by users in expense project 
--> manily taints and tolerations means rejecting the other project related pods are not allowed to nodes 
+- kube-scheduler cannot schedule any pod in that node 
+- GPU based servers are required for expense project 
+- taint these GPU nodes 
+- expense project users should give toleration in their manifest files 
+- tolerations are written by users in expense project 
+- manily taints and tolerations means rejecting the other project related pods are not allowed to nodes 
 
--> Taints are opposite -> they allow a node to repel (reject) a set of pods 
--> Tolerations are applied to pods. Tolerations allow the scheduler to schedule pods with matching taints 
--> Tolerations allow scheduling but don't guarantee scheduling 
+- Taints are opposite -> they allow a node to repel (reject) a set of pods 
+- Tolerations are applied to pods. Tolerations allow the scheduler to schedule pods with matching taints 
+- Tolerations allow scheduling but don't guarantee scheduling 
 
 1. EKS is integrated with IAm for authentication 
 2. aws-auth configmap 
